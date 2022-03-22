@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    height: 350px;
+    background: url(../images/angel-jimenez.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    padding: 200px 0 0 0 ;
+}
+button{
+    background-color: rgb(255, 39, 129);
+    color: aliceblue;
+}
+section{
+    width: 100%;
+    padding: 0 60px;
+}
+
+.derecha{
+    float: left;
+    width: 50%;
+}
+.izquierda{
+    float: left;
+    width: 50%;
+}
+
+.centro{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+}
+    
+.flotar1{
+    float: right;
+    width: 50%;
+    color: aliceblue;
+   
+}
+        
+.clear{
+            clear: both;}
+            
+h2{
+    background: -webkit-linear-gradient(blue, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.guitarra{
+    background: url(../images/john-raptis.png);
+    height: 350px;
+    background-size: cover;
+}
+
+ul{
+    list-style: none;
+    float: left;
+    color: aliceblue;
+    margin: 0 100px 0 0 ;
+    
+ 
+   
+}
+
+footer{
+    background-color: rgb(235, 100, 145);
+}
+footer p{
+    color: aliceblue;
+}
+
+button{
+    border-radius: 100px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color:  rgb(235, 100, 145);
+
+}
+
+button:hover{
+    background-color: rgb(255, 167, 167);
+}
