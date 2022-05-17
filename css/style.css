@@ -1,5 +1,8 @@
 *{
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
 }
 
 body{
@@ -98,4 +101,62 @@ button{
 
 button:hover{
     background-color: rgb(255, 167, 167);
+}
+
+
+@media(max-width: 1200px){
+
+    main{width: 993;}
+
+
+}
+
+@media(max-width: 767px){
+
+    main { width: 600px;
+
+    }
+    
+
+    .derecha{ float:none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        }
+    .seccion1{display: flex;
+              flex-direction: column;
+              align-items: center;
+              width: 100%;
+            }
+
+    .izquierda{float:none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .seccion2{display: flex;
+              flex-direction: column;
+              align-items: center;
+              width: 100%}
+    .guitarra{display: flex;
+              flex-direction: column;
+              align-items: center;
+            margin-top: 20px;}
+    .guitarra h3 {
+        margin-top: 30px;
+    }
+    footer ul{
+        margin: 0 65px 0 0 ;
+     
+    }
+    img{
+        width: 100%;
+    }
+              
+
+
+
 }
